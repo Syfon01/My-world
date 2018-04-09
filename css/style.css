@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0px;
+    height: 100%;
+}
+.logo{
+    border: 3px solid rgba(245, 242, 242, 0.822);
+    padding: 1%;
+    margin: 1% 7% 1%;
+    float: left;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS';
+
+}
+.topbar{
+    background-color: rgba(8, 8, 8, 0.795);
+    position: fixed;
+    width: 100%;
+    z-index: +1;
+}
+nav{
+    float: right;
+}
+nav li{
+    display: inline;
+    padding: 2rem;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+nav li:hover{
+    background: rgb(200, 50, 10);
+}
+#home{
+    background-color: rgba(52, 3, 138, 0.856);
+    color: white;
+    min-height: 100vh;
+}
+.hobby{
+    color: rgb(180, 154, 154);
+}
+.Abt{
+    color: rgb(2, 100, 212);
+}
+.Act{
+    color: white;
+}
+h3{
+    color: rgb(10, 50, 70);
+}
+.rounded-circle{
+    border-radius: 50px;
+    width: 18rem;
+    height: 18rem;
+    margin-left: 10%;
+}
+.image{
+    width: 300px;
+    padding: 2%;
+    border-style: ridge;
+    border-radius: 5px;
+    
+}
+.profile{
+    padding: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+#portfolio, #about,#resume,#contact  {
+padding-top:8rem;
+padding-bottom: 2rem;
+min-height: 90vh;
+}
+.hr1{
+    width: 12rem;
+    height: 5px;
+    background-color: blue;
+    margin-right: 1%;
+}
+.hr2{
+    width: 12rem;
+    height: 5px;
+    background-color: blue;
+    margin-left: 1%;
+}
+.hr3{
+    width: 12rem;;
+    height: 5px;
+    background-color:white;
+    margin-right: 1%;
+}
+.hr4{
+    width: 12rem;
+    height: 5px;
+    background-color:white;
+    margin-left: 1%;
+}
+
+#resume, #contact{
+    background-color: rgba(0, 36, 83, 0.979)
+}
+.c2{
+    color: white;
+}
+.c1{
+    color: rgb(2, 100, 212);
+}
+.imagess{
+    width:9rem;
+    height: 7rem;
+    margin-left:15%;
+}
+.hr{
+   background-color:white;
+}
+.imagesss{
+    width:9rem;
+    height: 7rem;
+}
+.social{
+    padding:10px;
+    border-radius: 50%;
+    border-style: solid;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: 3rem;
+}
+.social1{
+    padding:10px;
+    border-radius: 50%;
+    border-style: solid;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: 3rem;
+}
+.social2{
+    padding:10px;
+    border-radius: 50%;
+    border-style: solid;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: 3rem;
+}
+.icon{
+    display: flex;
+    text-align: center;
+    margin-left: 32%;
+}
+.footer{
+    padding: 2rem;
+background-color: rgb(0, 0, 0);
+color: white;
+}
